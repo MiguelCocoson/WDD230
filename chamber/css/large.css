@@ -1,5 +1,5 @@
-@media only screen and (min-width: 64rem) {
-  .active {
-    background-color: var(--second-color);
+@media only screen and (max-width: 1650px) {
+  h1 {
+  font-size: 2.5vw;
   }
 }
