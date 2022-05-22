@@ -26,3 +26,8 @@ x.onclick = toggleMenu;
 
 // Get week day
 let day = date.getDay();
+let events = '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.'
+
+if (day == 1 || day == 2) {
+	document.querySelector('#banner').innerHTML = events;
+}
