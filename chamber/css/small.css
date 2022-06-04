@@ -214,3 +214,13 @@ hr {
   background-color: black;
   border-style: none;
 }
+
+.discover {
+  grid-template-columns: repeat(1, minmax(10px, 1fr));
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.discover h1 {
+  text-align: center;
+}

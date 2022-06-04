@@ -123,4 +123,14 @@
         padding: 1em;
         margin: 0;
     }
+
+    .discover div:hover {
+      background-color: var(--main-color);
+      box-shadow: 0 0 2em 0.5em var(--main-color);
+    }
+    
+    .discover div:nth-child(1):hover {
+      background-color: #1d55e378;;
+      box-shadow: none;
+    }
 }
