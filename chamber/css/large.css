@@ -162,4 +162,7 @@ header h2 {
     display: block;
     min-height: 5em;
   }
+  form label.sds {
+    padding: .4rem 0;
+  }
 }

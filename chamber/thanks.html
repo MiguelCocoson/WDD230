@@ -23,10 +23,10 @@
          <nav>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
-               <li><a href="https://miguelcocoson.github.io/wdd230/chamber/index.html">Home</a></li>
+               <li><a href="https://miguelcocoson.github.io/wdd230/chamber/index.html" class="active">Home</a></li>
                <li><a href="https://miguelcocoson.github.io/wdd230/chamber/discover.html">Discover</a></li>
                <li><a href="#">Directory</a></li>
-               <li><a href="https://miguelcocoson.github.io/wdd230/chamber/join.html">Join</a></li>
+               <li><a href="#">Join</a></li>
                <li><a href="#">Contact</a></li>
             </ul>
          </nav>
@@ -35,32 +35,10 @@
          <div class="date"></div>
       </header>
       <main>
-         <div id="event">Event</div>
-         <div id="weather">
-            <h1>Weather</h1>
-            <img src="../chamber/images/weather.png" alt="Weather.">
-            <h2><span id="temperature"></span>°</h2>
-            <h4>Partly Cloudy</h4>
-            <hr>
-            <p>Wind Speed: <span id="speed"></span></p>
-            <p>Wind Chill: <span id="chill"></span></p>
-         </div>
-         <div id="join">Join</div>
-         <div id="hero">
-            <picture>
-               <source media="(max-width: 400px)" srcset="../chamber/images/small.jpg">
-               <source media="(max-width: 1000px)" srcset="../chamber/images/medium.jpg">
-               <source media="(max-width: 1600px)" srcset="../chamber/images/large.jpg">
-               <img src="../chamber/images/original.jpg" alt="Hero.">
-               <figcaption>Hero with site name and call to action</figcaption>
-            </picture>
-         </div>
-         <div id="news">News Release</div>
-         <div id="spotlight">
-            <div id="spotlight1">Spotlight 1</div>
-            <div id="spotlight2">Spotlight 2</div>
-            <div id="spotlight3">Spotlight 3</div>
-         </div>
+         <fieldset>
+          <h1>Thank You!</h1>
+          <p>Thank you for submiting your membership application.</p>
+         </fieldset>
       </main>
       <footer>
          <img id="logo" src="../chamber/images/logo.jpeg" alt="City Chamber Logo.">
@@ -70,6 +48,5 @@
          <p class="date">&copy;<span id="year"></span> City Chamber of Commerce | Miguel Marin | WDD230 project | Last Modification: <span id="lastmodified"></span></p>
       </footer>
       <script src="../chamber/js/scripts.js"></script>
-      <script src="../chamber/js/windchill.js"></script>
    </body>
 </html>
