@@ -165,4 +165,8 @@ header h2 {
   form label.sds {
     padding: .4rem 0;
   }
+
+  form label p {
+    display: block;
+  }
 }
