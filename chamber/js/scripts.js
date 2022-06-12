@@ -13,7 +13,7 @@ var mm = today.getMinutes();
 if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm}
 today = yyyy+"/"+mm+"/"+dd+" "+hh+":"+mm;
 
-document.getElementById("submited").innerHTML = today;
+document.getElementById("submited").value = today;
 
 const datefield = document.querySelector(".date");
 const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(

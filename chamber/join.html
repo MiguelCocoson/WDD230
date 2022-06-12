@@ -45,8 +45,7 @@
                   <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
                   <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
                   <label class="top">Bussiness Name <input type="text" name="title"></label>
-                  <label class="top">Bussiness Description</label>
-                  <textarea type="text" name="description"></textarea>
+                  <label class="top">Bussiness Description<br><textarea type="text" name="description"></textarea></label>
               </fieldset>
               <fieldset>
                   <legend>Course Information</legend>
@@ -55,27 +54,7 @@
                   <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership</label>
                   <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership</label>
                   <label class="sbs"><input type="radio" name="audience" value="silver"> Gold Membership</label>
-                  <div>Software Needed</div>
-                  <label class="sbs"><input type="checkbox" name="editing" value="yes"> Photo Editing</label>
-                  <label class="sbs"><input type="checkbox" name="code" value="yes"> Coding</label>
-                  <label class="sbs"><input type="checkbox" name="process" value="yes"> Preprocessor</label>
-                  <label class="sbs"><input type="checkbox" name="client" value="yes"> FTP Client</label>
-              </fieldset>
-              <fieldset>
-                  <legend>Funding</legend>
-                  <label class="top">Anticipated Completion Date <input type="date" name="completeDate"></label>
-                  <label name="time"><p id="submited"></p></label>
-                  <label class="top">Course Subject
-                    <select name="subject">
-                        <option value="">Please Select &#9662;</option>
-                        <option value="software">Software Development 1</option>
-                        <option value="software">Software Development 2</option>
-                        <option value="software">Software Development 3</option>
-                        <option value="software">Software Development 4</option>
-                        <option value="software">Software Development 5</option>
-                    </select>
-                  </label>
-                  <label>How Many Authors <input type="number" name="authors"></label>
+                  <label><input type="hidden" name="time" id="submited"></label>
             </fieldset>
             <input type="submit" value="Propise My Course" class="submitBtn">
           </form>
