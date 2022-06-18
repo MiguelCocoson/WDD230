@@ -12,16 +12,27 @@ async function getProphets() {
 }
 
 function buildProphetsCards(data) {
-	data.prophets.forEach(prophet => {
+	//let nonUtah = data.prophets.filter(p => p.birthplace !== 'Utah');
+	/*nonUtah*/ data.prophets.forEach(prophet => {
 		let card = document.createElement('section');
 		let h2 = document.createElement('h2');
 		let p = document.createElement('p');
 		let img = document.createElement('img');
 
 		let fullName = `${prophet.name} ${prophet.lastname}`;
+		let order  = `${prophet.order}`;
+		let number = ''
+
+		if (order == 1) {
+			number = 'st'
+		} else if (order == 2) {
+			number = 'nd'
+		} else {
+			number = 'th'
+		}
 	
-		h2.innerHTML = `${prophet.name} <span class="highlight">${prophet.lastname}</span>`;
-		p.innerHTML = `Location of birth: <strong>${prophet.birthplace}</strong>`;
+		h2.innerHTML = `Portrait of ${prophet.name} <span class="highlight">${prophet.lastname}</span> - ${order}${number} Latter-day President`;
+		p.innerHTML = `Date of Birth: ${prophet.birthdate}<br>Location of birth: <strong>${prophet.birthplace}</strong>`;
 		img.setAttribute('src', prophet.imageurl);
 		img.setAttribute('alt', `Picture of the President ${fullName}`);
 		img.setAttribute('loading', 'lazy');
