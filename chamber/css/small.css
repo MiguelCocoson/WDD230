@@ -289,6 +289,39 @@ form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
-form label p {
-  display: none;
+.companies h1, footer {
+	text-align: center;
+}
+
+.companies h2 {
+  font-size: 2em;
+}
+
+.companies div {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	grid-gap: 10px;
+}
+
+.companies section {
+	padding: 10px;
+  border: 2px solid black;
+  background-color: #1d55e378;
+	text-align: center;
+}
+
+.companies img {
+	width: 50%;
+}
+
+button {
+  background-color: var(--third-color);
+}
+
+#cards {
+  grid-column: 1/6;
+}
+
+#list {
+  grid-column: 6/11;
 }

@@ -1,0 +1,76 @@
+{
+    "companies": [
+      {
+        "name": "Los Dos Potrillos",
+        "address": "146 S Main St, Spanish Fork, UT 84660",
+        "phone": "(801) 798-6100",
+        "website": "losdospotrillos.com",
+        "image": "https://scontent-den4-1.xx.fbcdn.net/v/t1.6435-9/70494978_110218180370889_8214199857829642240_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=rqHBhwMuYEQAX-CzP6h&tn=hqm9ASEtr-T4toIS&_nc_ht=scontent-den4-1.xx&oh=00_AT_O3Xepw_WfbDYdbc_0vskMcYkUjjUHEa72NsJSdkrIag&oe=62D4049E",
+        "membership": "gold"
+      },
+      {
+        "name": "Cinemark",
+        "address": "595 Commerce Way, Spanish Fork, UT 84660",
+        "phone": "(801) 798-6977",
+        "website": "cinemark.com",
+        "image": "https://utahvalley360.com/wp-content/uploads/2017/12/Cinemark-Spanish-Fork.jpg",
+        "membership": "gold"
+      },
+      {
+        "name": "The Oaks",
+        "address": "2300 E Powerhouse Rd, Spanish Fork, UT 84660",
+        "phone": "(801) 804-4653",
+        "website": "theoaksatsf.com",
+        "image": "https://assets.simpleviewinc.com/simpleview/image/fetch/c_limit,q_75,w_1200/https://assets.simpleviewinc.com/simpleview/image/upload/crm/utahvalley/HOLE-12-Spanish-Oaks-12.25x22-1--2b0698d25056a36_2b069a49-5056-a36a-0b0381e2279c5f59.jpg",
+        "membership": "silver"
+      },
+      {
+        "name": "Hampton Inn",
+        "address": "462 Commerce Way, Spanish Fork, UT 84660",
+        "phone": "(385) 248-0550",
+        "website": "hampton.com",
+        "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/7a/99/a2/exterior.jpg?w=900&h=-1&s=1",
+        "membership": "bronze"
+      },
+      {
+        "name": "Doc Brundy's",
+        "address": "260 N Main St, Spanish Fork, UT 84660",
+        "phone": "(801) 999-1289",
+        "website": "docbrundys.com",
+        "image": "https://scontent-den4-1.xx.fbcdn.net/v/t39.30808-6/278061187_377690114372329_6314668949055366095_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=K-dDcVifdroAX9ufJxZ&_nc_ht=scontent-den4-1.xx&oh=00_AT84D57hyktoieaaJlUo_BnsuuSaubujNZn7gy-c6XdHDg&oe=62B46ED1",
+        "membership": "silver"
+      },
+      {
+        "name": "Hobby Lobby",
+        "address": "1304 Canyon Creek Pkwy, Spanish Fork, UT 84660",
+        "phone": "(801) 504-6561",
+        "website": "hobbylobby.com",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipPJ-rlQIb0qNU7ExS3jK2kspkuEFfY3FriO0nY=s1600-w400",
+        "membership": "bronze"
+      },
+      {
+        "name": "Tabitha's Way",
+        "address": "45 E 100 N, Spanish Fork, UT 84660",
+        "phone": "(801) 709-8573",
+        "website": "tabithasway.org",
+        "image": "https://tabithaswaysouth.org/wp-content/uploads/2020/03/south.jpg",
+        "membership": "np"
+      },
+      {
+        "name": "The Hive",
+        "address": "955 N Main St, Spanish Fork, UT 84660",
+        "phone": "(801) 609-2440",
+        "website": "hiveparks.com",
+        "image": "https://i.ytimg.com/vi/od-0m_y7wgw/maxresdefault.jpg",
+        "membership": "silver"
+      },
+      {
+        "name": "Fiiz Drinks",
+        "address": "1362 E Center St, Spanish Fork, UT 84660",
+        "phone": "(801) 709-6208",
+        "website": "fiizdrinks.com",
+        "image": "https://lh3.googleusercontent.com/p/AF1QipOpsJSK8noI6JvSxOPGpyfSgKWEC9GJiMEwiQla=w768-h768-n-o-v1",
+        "membership": "gold"
+      }
+    ]
+  }

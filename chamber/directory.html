@@ -33,31 +33,11 @@
          <img id="facebook" src="../chamber/images/facebook.jpeg" alt="Facebook Logo.">
          <img id="linkedin" src="../chamber/images/linkedin.jpeg" alt="Linkedin Logo.">
          <div class="date"></div>
+         <button id="cards"><span></span><span>Cards</span></button>
+         <button id="list"><span></span><span>List</span></button>
       </header>
       <main>
-          <h1> Join today!</h1>
-          <form method="get" action="thanks.html">
-              <fieldset>
-                  <legend>Member Information</legend>
-                  <label class="top">First Name* <input type="text" name="fname" required></label>
-                  <label class="top">Last Name* <input type="text" name="lname" required></label>
-                  <label class="top">Title <input type="text" name="title"></label>
-                  <label class="top">Email* <input type="email" name="email" placeholder="someone@gmail.com" required></label>
-                  <label class="top">Phone* <input type="tel" name="phone" placeholder="1235551234" required></label>
-                  <label class="top">Bussiness Name <input type="text" name="title"></label>
-                  <label class="top">Bussiness Description<br><textarea type="text" name="description"></textarea></label>
-              </fieldset>
-              <fieldset>
-                  <legend>Course Information</legend>
-                  <div>Membership Level</div>
-                  <label class="sbs"><input type="radio" name="audience" value="np"> NP Membership<p>$20<br>Includes: Events.</p></label>
-                  <label class="sbs"><input type="radio" name="audience" value="bronze"> Bronze Membership<p>$30<br>Includes: Events, and advertising.</p></label>
-                  <label class="sbs"><input type="radio" name="audience" value="silver"> Silver Membership<p>$40<br>Includes: Events, advertising, and discounts.</p></label>
-                  <label class="sbs"><input type="radio" name="audience" value="silver"> Gold Membership<p>$50<br>Includes: Events, advertising, discounts, and other pearks.</p></label>
-                  <label><input type="hidden" name="time" id="submited"></label>
-            </fieldset>
-            <input type="submit" value="Propise My Course" class="submitBtn">
-          </form>
+        <div class="companies"></div>
       </main>
       <footer>
          <img id="logo" src="../chamber/images/logo.jpeg" alt="City Chamber Logo.">
@@ -67,6 +47,6 @@
          <p class="date">&copy;<span id="year"></span> City Chamber of Commerce | Miguel Marin | WDD230 project | Last Modification: <span id="lastmodified"></span></p>
       </footer>
       <script src="../chamber/js/scripts.js"></script>
-      <script src="../chamber/js/join.js"></script>
+      <script src="../chamber/js/directory.js"></script>
    </body>
 </html>

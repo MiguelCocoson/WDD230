@@ -1,0 +1,11 @@
+//Submition date
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1;
+var yyyy = today.getFullYear();
+var hh = today.getHours();
+var mm = today.getMinutes();
+if(dd<10){dd='0'+dd} if(mm<10){mm='0'+mm}
+today = yyyy+"/"+mm+"/"+dd+" "+hh+":"+mm;
+
+document.getElementById("submited").value = today;
