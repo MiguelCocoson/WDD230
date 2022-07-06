@@ -17,25 +17,28 @@
    <body>
       <header>
          <p id="banner"></p>
-         <img id="logo" src="../chamber/images/logo.jpeg" alt="City Chamber Logo.">
+         <a href="../chamber/index.html"><img id="logo" src="../chamber/images/logo.jpeg" alt="City Chamber Logo."></a>
          <h1>City Chamber</h1>
          <h2>Chamber of Commerce</h2>
          <nav>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
-               <li><a href="https://miguelcocoson.github.io/wdd230/chamber/index.html">Home</a></li>
-               <li><a href="https://miguelcocoson.github.io/wdd230/chamber/discover.html">Discover</a></li>
-               <li><a href="https://miguelcocoson.github.io/wdd230/chamber/directory.html">Directory</a></li>
-               <li><a href="https://miguelcocoson.github.io/wdd230/chamber/join.html">Join</a></li>
-               <li><a href="#">Contact</a></li>
+               <li><a href="../chamber/index.html">Home</a></li>
+               <li><a href="../chamber/discover.html">Discover</a></li>
+               <li><a href="../chamber/directory.html">Directory</a></li>
+               <li><a href="../chamber/join.html">Join</a></li>
+               <li><a href="../chamber/contact.html">Contact</a></li>
             </ul>
          </nav>
          <img id="facebook" src="../chamber/images/facebook.jpeg" alt="Facebook Logo.">
          <img id="linkedin" src="../chamber/images/linkedin.jpeg" alt="Linkedin Logo.">
          <div class="date"></div>
       </header>
-      <main>
-         <div id="event">Event</div>
+      <main id="home">
+         <div id="event">
+            <h1>Events</h1>
+            <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+         </div>
          <div id="weather">
             <h1>Weather</h1>
             <img src="" alt="" id="weather-icon" />
@@ -46,7 +49,10 @@
             <p>Wind Speed: <span id="speed"></span></p>
             <p>Wind Chill: <span id="chill"></span></p>
          </div>
-         <div id="join">Join</div>
+         <div id="join">
+            <h1>Join our community</h1>
+            <p>Follow the link in the main menu to get a city membership.</p>
+         </div>
          <div id="hero">
             <picture>
                <source media="(max-width: 400px)" srcset="../chamber/images/small.jpg">
@@ -56,12 +62,11 @@
                <figcaption>Hero with site name and call to action</figcaption>
             </picture>
          </div>
-         <div id="news">News Release</div>
-         <div id="spotlight">
-            <div id="spotlight1">Spotlight 1</div>
-            <div id="spotlight2">Spotlight 2</div>
-            <div id="spotlight3">Spotlight 3</div>
+         <div id="news">
+            <h1>News Release</h1>
+            <p>4th of July fireworks get neightborhood on fire. Learn more about it through the city newspaper.</p>
          </div>
+         <div id="spotlight"></div>
       </main>
       <footer>
          <img id="logo" src="../chamber/images/logo.jpeg" alt="City Chamber Logo.">
@@ -73,5 +78,6 @@
       <script src="../chamber/js/scripts.js"></script>
       <script src="../chamber/js/windchill.js"></script>
       <script src="../chamber/js/weatherapi.js"></script>
+      <script src="../chamber/js/spotlight.js"></script>
    </body>
 </html>

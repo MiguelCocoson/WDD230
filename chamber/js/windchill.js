@@ -32,6 +32,8 @@ function displayResults(weatherData) {
         iconsrc = "../chamber/images/rain.png";
     } else if (weatherData.weather[0].main == 'Snow') {
         iconsrc = "../chamber/images/snow.png";
+    } else if (weatherData.weather[0].main == 'Clouds') {
+        iconsrc = "../chamber/images/clouds.png";
     } else {
         iconsrc = "../chamber/images/weather.png";
     }
