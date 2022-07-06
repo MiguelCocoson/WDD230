@@ -540,3 +540,75 @@ template {
 [hidden] {
   display: none;
 }
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.mainc {
+	margin: 0 auto;
+	border: 1px solid black;
+	padding: 0.5rem;
+	max-width: 800px;
+	background-color: rgb(137, 219, 176);
+}
+
+.companies article,
+.companies section {
+	margin: 0.75rem;
+}
+
+.companies section {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #ccc;
+}
+
+.companies {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	align-items: center;
+  grid-gap: 1em;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+  height: 100%;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.list section > * {
+	margin: 0 1rem;
+	text-align: left;
+}
+
+.list section img {
+	max-width: 20%;
+}
+
+.companies img {
+	height: 75px;
+	max-width: 100%;
+}

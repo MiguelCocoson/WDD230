@@ -1,6 +1,5 @@
 const URL = '../chamber/json/directory.json';
 const cards = document.querySelector('.companies');
-const spotlights = document.querySelector('#spotlight');
 
 async function getCompanies() {
 	let response = await fetch(URL);
@@ -30,28 +29,21 @@ function buildCompaniesCards(data) {
 		card.append(img);
 
 		cards.append(card);
-
-		if (company.membership == 'gold' && cards.length < 4) {
-			spotlights.append(card)
-		}
 	});
 }
 
 getCompanies();
 
-const gridbutton = document.querySelector("#grid");
+const gridbutton = document.querySelector("#cards");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
-
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
+const display = document.querySelector(".companies");
 
 gridbutton.addEventListener("click", () => {
-	// example using arrow function
 	display.classList.add("grid");
 	display.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList); // example using defined function
+listbutton.addEventListener("click", showList);
 
 function showList() {
 	display.classList.add("list");
