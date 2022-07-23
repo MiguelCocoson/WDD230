@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>City Chamber</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="description" content="Wbsite for local businesses and citizens to collaborate for the good of the community." />
+      <!-- STYLE SHEETS -->
+      <link href="../chamber/css/normalize.css" rel="stylesheet">
+      <!-- phone-default -->
+      <link href="../chamber/css/small.css" rel="stylesheet">
+      <!-- enhance-tablet -->
+      <link href="../chamber/css/medium.css" rel="stylesheet">
+      <!-- enhance-desktop -->
+      <link href="../chamber/css/large.css" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <p id="banner"></p>
+         <a href="../chamber/index.html"><img id="logo" src="../chamber/images/logo.jpeg" alt="City Chamber Logo."></a>
+         <h1>City Chamber</h1>
+         <h2>Chamber of Commerce</h2>
+         <nav>
+            <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+            <ul id="primaryNav">
+               <li><a href="../chamber/index.html">Home</a></li>
+               <li><a href="../chamber/discover.html">Discover</a></li>
+               <li><a href="../chamber/directory.html">Directory</a></li>
+               <li><a href="../chamber/join.html">Join</a></li>
+               <li><a href="../chamber/contact.html">Contact</a></li>
+            </ul>
+         </nav>
+         <img id="facebook" src="../chamber/images/facebook.jpeg" alt="Facebook Logo.">
+         <img id="linkedin" src="../chamber/images/linkedin.jpeg" alt="Linkedin Logo.">
+         <div class="date"></div>
+      </header>
+      <main id="home">
+         <div id="event">
+            <h1>Events</h1>
+            <p>Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</p>
+         </div>
+         <div id="weather">
+            <h1>Weather</h1>
+            <img src="" alt="" id="weather-icon" />
+            <h2>Spanish Fork</h2>
+            <h2><span id="current-temp"></span> &deg;F</h2>
+            <h4 id="condition"></h4>
+            <hr>
+            <p>Wind Speed: <span id="speed"></span></p>
+            <p>Wind Chill: <span id="chill"></span></p>
+         </div>
+         <div id="join">
+            <h1>Join our community</h1>
+            <p>Follow the link in the main menu to get a city membership.</p>
+         </div>
+         <div id="hero">
+            <picture>
+               <source media="(max-width: 400px)" srcset="../chamber/images/small.jpg">
+               <source media="(max-width: 1000px)" srcset="../chamber/images/medium.jpg">
+               <source media="(max-width: 1600px)" srcset="../chamber/images/large.jpg">
+               <img src="../chamber/images/original.jpg" alt="Hero.">
+               <figcaption>Hero with site name and call to action</figcaption>
+            </picture>
+         </div>
+         <div id="news">
+            <h1>News Release</h1>
+            <p>4th of July fireworks get neightborhood on fire. Learn more about it through the city newspaper.</p>
+         </div>
+         <div id="spotlight"></div>
+      </main>
+      <footer>
+         <img id="logo" src="../chamber/images/logo.jpeg" alt="City Chamber Logo.">
+         <h1>City Chamber of Commerce</h1>
+         <h2>1234 E 567 S<br>Spanish Fork, Utah 89101</h2>
+         <p id="info">info@citychamber.org<br>(123)456-7890<br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1515.2001317856104!2d-111.65633078205053!3d40.109338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874dbccffca33fbb%3A0x7cfc2cf5d5ab7ed2!2sSpanish%20Fork%20Municipal%20Government!5e0!3m2!1sen!2sus!4v1657087151573!5m2!1sen!2sus" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><br>📍 Location Map</p>
+         <p class="date">&copy;<span id="year"></span> City Chamber of Commerce | Miguel Marin | WDD230 project | Last Modification: <span id="lastmodified"></span></p>
+      </footer>
+      <script src="../chamber/js/scripts.js"></script>
+      <script src="../chamber/js/windchill.js"></script>
+      <script src="../chamber/js/weatherapi.js"></script>
+      <script src="../chamber/js/spotlight.js"></script>
+   </body>
+</html>
